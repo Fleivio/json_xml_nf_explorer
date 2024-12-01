@@ -15,12 +15,19 @@ main' = do
         Left err -> putStrLn err
         Right ps -> print $ mkTest ps
 
-mkTest :: Value -> Object MySchema
-mkTest = fromJust . decode . encode
+mkTest :: Value -> Maybe (Object MySchema)
+mkTest = decode . encode
 
 type MySchema = [schema| 
     {
         _header: #HeaderSchema,
         _root: #RootSchema
+    }
+|]
+
+type TestSchema = [schema|
+    {
+        foo: Text,
+        int: Int
     }
 |]

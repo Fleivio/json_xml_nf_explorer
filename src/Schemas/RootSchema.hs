@@ -8,50 +8,50 @@ nfeProc: {
   NFe: {
     Signature: {
       KeyInfo: {
-        X509Data: {
-          X509Certificate: {
-            pcdata: Text
+          X509Data: {
+              X509Certificate: {
+                  pcdata: Text
+              }
           }
-        }
       },
       SignatureValue: {
-        pcdata: Text
+          pcdata: Text
       },
       SignedInfo: {
-        CanonicalizationMethod: {
-          _attrs: {
-            Algorithm: Text
+          CanonicalizationMethod: {
+              _attrs: {
+                  Algorithm: Text
+              },
+              pcdata: Text
           },
-          pcdata: Text
-        },
-        Reference: {
-          DigestMethod: {
-            _attrs: {
-              Algorithm: Text
-            },
-            pcdata: Text
+          Reference: {
+              DigestMethod: {
+                  _attrs: {
+                    Algorithm: Text
+                  },
+                  pcdata: Text
+              },
+              DigestValue: {
+                  pcdata: Text
+              },
+              Transforms: {
+                  Transform: {
+                        _attrs: {
+                            Algorithm: Text
+                        },
+                      pcdata: Text
+                  }
+              },
+              _attrs: {
+                URI: Text
+              }
           },
-          DigestValue: {
-            pcdata: Text
-          },
-          Transforms: {
-            Transform: {
+          SignatureMethod: {
               _attrs: {
                 Algorithm: Text
               },
               pcdata: Text
-            }
-          },
-          _attrs: {
-            URI: Text
           }
-        }
-      },
-      SignatureMethod:{
-        _attrs: {
-          Algorithm: Text
-        },
-        pcdata: Text
       },
       _attrs: {
         xmlns: Text
@@ -91,14 +91,14 @@ nfeProc: {
         }
       },
       det: {
-        _attrs: { nItem: Int },
+        _attrs: { nItem: Text },
         imposto: {
           COFINS: {
             COFINSOutr: {
               CST: { pcdata: Text },
-              qBCProd: { pcdata: Double },
-              vAliqProd: { pcdata: Double },
-              vCOFINS: { pcdata: Double }
+              qBCProd: { pcdata: Text },
+              vAliqProd: { pcdata: Text },
+              vCOFINS: { pcdata: Text }
             }
           },
           ICMS: {
@@ -106,20 +106,20 @@ nfeProc: {
               CST: { pcdata: Text },
               modBC: { pcdata: Text },
               orig: { pcdata: Text },
-              pICMS: { pcdata: Double },
-              vBC: { pcdata: Double },
-              vICMS: { pcdata: Double }
+              pICMS: { pcdata: Text },
+              vBC: { pcdata: Text },
+              vICMS: { pcdata: Text }
             }
           },
           PIS: {
             PISOutr: {
               CST: { pcdata: Text },
-              pPIS: { pcdata: Double },
-              vBC: { pcdata: Double },
-              vPIS: { pcdata: Double }
+              pPIS: { pcdata: Text },
+              vBC: { pcdata: Text },
+              vPIS: { pcdata: Text }
             }
           },
-          vTotTrib: { pcdata: Double }
+          vTotTrib: { pcdata: Text }
         },
         prod: {
           CFOP: { pcdata: Text },
@@ -132,9 +132,9 @@ nfeProc: {
           qTrib: { pcdata: Text },
           uCom: { pcdata: Text },
           uTrib: { pcdata: Text },
-          vProd: { pcdata: Double },
-          vUnCom: { pcdata: Double },
-          vUnTrib: { pcdata: Double },
+          vProd: { pcdata: Text },
+          vUnCom: { pcdata: Text },
+          vUnTrib: { pcdata: Text },
           xProd: { pcdata: Text }
         }
       },
@@ -157,88 +157,90 @@ nfeProc: {
         xNome: { pcdata: Text }
       },
       entrega: {
-        CEP: Text,
-        CPF: Text,
-        UF: Text,
-        cMun: Text,
-        cPais: Text,
-        nro: Text,
-        xBairro: Text,
-        xLgr: Text,
-        xMun: Text,
-        xNome: Text,
-        xPais: Text
+        CEP: {pcdata: Text},
+        CPF: {pcdata: Text},
+        UF: {pcdata: Text},
+        cMun: {pcdata: Text},
+        cPais: {pcdata: Text},
+        nro: {pcdata: Text},
+        xBairro: {pcdata: Text},
+        xLgr: {pcdata: Text},
+        xMun: {pcdata: Text},
+        xNome: {pcdata: Text},
+        xPais: {pcdata: Text}
       },
       ide: {
-        cDV: Int,
-        cMunFG: Text,
-        cNF: Text,
-        cUF: Int,
-        dhEmi: Text,
-        dhSaiEnt: Text,
-        finNFe: Int,
-        idDest: Int,
-        indFinal: Int,
-        indIntermed: Int,
-        indPres: Int,
-        mod: Int,
-        nNF: Int,
-        natOp: Text,
-        procEmi: Int,
-        serie: Int,
-        tpAmb: Int,
-        tpEmis: Int,
-        tpImp: Int,
-        tpNF: Int,
-        verProc: Text
+        cDV: {pcdata: Text},
+        cMunFG: {pcdata: Text},
+        cNF: {pcdata: Text},
+        cUF: {pcdata: Text},
+        dhEmi: {pcdata: Text},
+        dhSaiEnt: {pcdata: Text},
+        finNFe: {pcdata: Text},
+        idDest: {pcdata: Text},
+        indFinal: {pcdata: Text},
+        indIntermed: {pcdata: Text},
+        indPres: {pcdata: Text},
+        mod: {pcdata: Text},
+        nNF: {pcdata: Text},
+        natOp: {pcdata: Text},
+        procEmi: {pcdata: Text},
+        serie: {pcdata: Text},
+        tpAmb: {pcdata: Text},
+        tpEmis: {pcdata: Text},
+        tpImp: {pcdata: Text},
+        tpNF: {pcdata: Text},
+        verProc: {pcdata: Text}
       },
       infAdic: {
-        infCpl: Text,
+        infCpl: {pcdata: Text},
         obsCont: {
-          xCampo: Text,
-          xTexto: Text
+          _attrs: {
+            xCampo: Text
+          },
+          xTexto: {pcdata: Text}
         }
       },
       infRespTec: {
-        CNPJ: Text,
-        email: Text,
-        fone: Text,
-        xContato: Text
+        CNPJ: {pcdata: Text},
+        email: {pcdata: Text},
+        fone: {pcdata: Text},
+        xContato: {pcdata: Text}
       },
       pag: {
         detPag: {
-          indPag: Int,
-          tPag: Int,
-          vPag: Double
-      },
-        vTroco: Double
+          indPag: {pcdata: Text},
+          tPag: {pcdata: Text},
+          vPag: {pcdata: Text}
+        },
+        vTroco: {pcdata: Text}
       },
       total: {
         ICMSTot: {
-          vBC: Double,
-          vBCST: Double,
-          vCOFINS: Double,
-          vDesc: Double,
-          vFCP: Double,
-          vFCPST: Double,
-          vFCPSTRet: Double,
-          vFrete: Double,
-          vICMS: Double,
-          vICMSDeson: Double,
-          vII: Double,
-          vIPI: Double,
-          vIPIDevol: Double,
-          vNF: Double,
-          vOutro: Double,
-          vPIS: Double,
-          vProd: Double,
-          vST: Double,
-          vSeg: Double,
-          vTotTrib: Double
+          vBC: {pcdata: Text},
+          vBCST: {pcdata: Text},
+          vCOFINS: {pcdata: Text},
+          vDesc: {pcdata: Text},
+          vFCP: {pcdata: Text},
+          vFCPST: {pcdata: Text},
+          vFCPSTRet: {pcdata: Text},
+          vFrete: {pcdata: Text},
+          vICMS: {pcdata: Text},
+          vICMSDeson: {pcdata: Text},
+          vII: {pcdata: Text},
+          vIPI: {pcdata: Text},
+          vIPIDevol: {pcdata: Text},
+          vNF: {pcdata: Text},
+          vOutro: {pcdata: Text},
+          vPIS: {pcdata: Text},
+          vProd: {pcdata: Text},
+          vST: {pcdata: Text},
+          vSeg: {pcdata: Text},
+          vTotTrib: {pcdata: Text}
         }
       },
       transp: {
-        modFrete: Int
+        modFrete: {pcdata: Text}
       }
     }
   },
@@ -246,9 +248,19 @@ nfeProc: {
       xmlns: Text,
       versao: Text
   },
-  protNFe:{
-    a: Int
-  }
+  protNFe: {
+        _attrs: { versao: Text },
+        infProt: {
+          cStat: { pcdata: Text },
+          chNFe: { pcdata: Text },
+          dhRecbto: { pcdata: Text },
+          digVal: { pcdata: Text },
+          nProt: { pcdata: Text },
+          tpAmb: { pcdata: Text },
+          verAplic: { pcdata: Text },
+          xMotivo: { pcdata: Text }
+        }
+      }
 }
 }
 |]
