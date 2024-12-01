@@ -22,3 +22,4 @@ type SchemaTest = [schema|
         int: Int
     }
 |]
+

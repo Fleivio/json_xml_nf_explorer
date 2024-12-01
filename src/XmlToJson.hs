@@ -12,12 +12,16 @@ data Xml = Xml [(String, String)] Tag deriving(Show, Eq, Generic)
 
 instance ToJSON Tag where
   toJSON (Tag name attrs inner) =
-      object [fromString name .= object ["_attrs" .= attrs, "_content" .= content]]
-    where content = case inner of
+      object [fromString name .= object ["_attrs" .= attrsObj, "_content" .= innerObj]]
+    where innerObj = case inner of
                       Left tags -> toJSON tags
                       Right str -> toJSON str
+          attrsObj = object $ map (\(k,v) -> fromString k .= v) attrs
 
-instance ToJSON Xml
+instance ToJSON Xml where
+  toJSON (Xml header tag) = object ["_header" .= headerObj, "_root" .= tagObj]
+    where headerObj = object $ map (\(k,v) -> fromString k .= v) header
+          tagObj = toJSON tag
 
 transformFile :: FilePath -> FilePath -> IO ()
 transformFile input output = do
