@@ -25,11 +25,21 @@ executable json-xml-explorer
 
     main-is:          Main.hs
 
+    default-extensions:
+        QuasiQuotes, DataKinds, OverloadedStrings, TypeFamilies, DeriveGeneric
+
+    other-modules: 
+        SchemaTest,
+        XmlToJson
+
     build-depends:    
         base ^>=4.19.1.0,
+        aeson,
         aeson-schemas,
-        parsec
+        parsec,
+        text,
+        bytestring
 
-    hs-source-dirs:   app
+    hs-source-dirs:   app, src
 
     default-language: Haskell2010

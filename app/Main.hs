@@ -1,7 +1,6 @@
 module Main where
 
-import Text.Parsec
-import Data.Aeson.Schema
+import SchemaTest
 
 main :: IO ()
-main = putStrLn "Hello, Haskell!"
+main = main'
