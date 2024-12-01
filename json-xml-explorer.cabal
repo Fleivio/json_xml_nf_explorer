@@ -30,7 +30,8 @@ executable json-xml-explorer
 
     other-modules: 
         SchemaTest,
-        XmlToJson
+        XmlToJson,
+        HeaderSchema
 
     build-depends:    
         base ^>=4.19.1.0,

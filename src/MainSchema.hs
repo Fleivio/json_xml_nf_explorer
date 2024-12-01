@@ -4,6 +4,7 @@ import Data.Aeson (Value, eitherDecode, encode, decode)
 import qualified Data.ByteString.Lazy as B
 import Data.Aeson.Schema
 import Data.Maybe (fromJust)
+import HeaderSchema
 
 main' :: IO ()
 main' = do
@@ -13,13 +14,21 @@ main' = do
         Left err -> putStrLn err
         Right ps -> print $ mkTest ps
 
-mkTest :: Value -> Object SchemaTest
+mkTest :: Value -> Object MySchema
 mkTest = fromJust . decode . encode
 
-type SchemaTest = [schema| 
+type MySchema = [schema| 
     {
-        foo: Text,
-        int: Int
+        _header: #HeaderSchema,
+        _root: {
+            _nfeProc: {
+                _attrs: {
+                    versao: Text
+                },
+                _content: {
+                    nFe: Text
+                }
+            }
+        }
     }
 |]
-
