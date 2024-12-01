@@ -1,1 +1,182 @@
-<?xml version="1.0" encoding="UTF-8"?><nfeProc versao="4.00" xmlns="http://www.portalfiscal.inf.br/nfe"><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe43240837916119000119650010000000111004500994" versao="4.00"><ide><cUF>43</cUF><cNF>00450099</cNF><natOp>VENDA CONSULMIDOR</natOp><mod>65</mod><serie>1</serie><nNF>11</nNF><dhEmi>2024-08-21T12:49:29-03:00</dhEmi><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4315149</cMunFG><tpImp>4</tpImp><tpEmis>1</tpEmis><cDV>4</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal><indPres>1</indPres><indIntermed>0</indIntermed><procEmi>0</procEmi><verProc>1</verProc></ide><emit><CNPJ>37916119000119</CNPJ><xNome>VIZ INDUSTRIA DE EMBUTIDOS LTDA</xNome><enderEmit><xLgr>PRESIDENTE LUCENA</xLgr><nro>1319</nro><xBairro>NOVA VILA</xBairro><cMun>4315149</cMun><xMun>PRESIDENTE LUCENA</xMun><UF>RS</UF><CEP>93945000</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>51980225365</fone></enderEmit><IE>3950005490</IE><CRT>3</CRT></emit><det nItem="1"><prod><cProd>46</cProd><cEAN>SEM GTIN</cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>85044010</NCM><CFOP>5102</CFOP><uCom>PC</uCom><qCom>1.0000</qCom><vUnCom>149.9900000000</vUnCom><vProd>149.99</vProd><cEANTrib>SEM GTIN</cEANTrib><uTrib>PC</uTrib><qTrib>1.0000</qTrib><vUnTrib>149.9900000000</vUnTrib><indTot>1</indTot></prod><imposto><vTotTrib>34.69</vTotTrib><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>0.00</vBC><pICMS>13.0000</pICMS><vICMS>0.00</vICMS></ICMS00></ICMS><PIS><PISOutr><CST>49</CST><vBC>149.99</vBC><pPIS>0.0000</pPIS><vPIS>0.00</vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>49</CST><qBCProd>0.0000</qBCProd><vAliqProd>0.0000</vAliqProd><vCOFINS>0.00</vCOFINS></COFINSOutr></COFINS></imposto></det><total><ICMSTot><vBC>0.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vFCP>0.00</vFCP><vBCST>0.00</vBCST><vST>0.00</vST><vFCPST>0.00</vFCPST><vFCPSTRet>0.00</vFCPSTRet><vProd>149.99</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vIPIDevol>0.00</vIPIDevol><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>149.99</vNF><vTotTrib>34.69</vTotTrib></ICMSTot></total><transp><modFrete>9</modFrete></transp><pag><detPag><indPag>0</indPag><tPag>01</tPag><vPag>149.99</vPag></detPag><detPag><indPag>0</indPag><tPag>10</tPag><vPag>30.00</vPag></detPag><detPag><indPag>0</indPag><tPag>05</tPag><vPag>70.00</vPag></detPag><vTroco>100.00</vTroco></pag><infAdic><infCpl>Pedido UUID: 66c609b34d141- Vendedor: deivisValor Aprox. Tributos R$ 34,19 - 21 Federal, 13.19 Estadual e 0.00 Municipal.Fonte: IBPT empresometro.com.br</infCpl></infAdic></infNFe><infNFeSupl><qrCode>https://www.sefaz.rs.gov.br/NFCE/NFCE-COM.aspx?p=43240837916119000119650010000000111004500994|2|2|1|948F56B4F456E1E3FE80F47C3858F0023E69346B</qrCode><urlChave>www.sefaz.rs.gov.br/nfce/consulta</urlChave></infNFeSupl><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe43240837916119000119650010000000111004500994"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>8NfmqRlNB13aOH1NtCC+T7q8K74=</DigestValue></Reference></SignedInfo><SignatureValue>Jgx7N5lM50sMMtlTo5k+53G/pYwZ2AZL9U1GGzfs3ZhSLGSdep2KtJQ1QknnDPCX2hkNNyhFme3573olDD99KoLV0QhFCyg9ib88JGnUlEADLcR7Nrvh2CUO9qDE8eSwFPE7Sm84JQgEidB2wYvWlIL99nfbMhUTlFcl3Gu3aDO1V5DlJg8N4N2iGyS6SK3/QPNnEX4BztKPnMdo0fIOhzXLmwqM41tlqCeHtKVaSp7Hxyv0I8dLMK5uJjk7igYSLE/5pAGZTtFMnBu68az6ZJ+wggytP5+80sqwT7wGXCnpxBxGS0UBqQ28cujRiB9kGF3PktBSOhwoEVIkLJbIFA==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></NFe><protNFe versao="4.00"><infProt><tpAmb>2</tpAmb><verAplic>RSnfce2408131252</verAplic><chNFe>43240837916119000119650010000000111004500994</chNFe><dhRecbto>2024-08-21T12:49:30-03:00</dhRecbto><nProt>143240001299247</nProt><digVal>8NfmqRlNB13aOH1NtCC+T7q8K74=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></nfeProc>
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc versao="4.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+    <infNFe Id="NFe43240837916119000119650010000000111004500994" versao="4.00">
+      <ide>
+        <cUF>43</cUF>
+        <cNF>00450099</cNF>
+        <natOp>VENDA CONSULMIDOR</natOp>
+        <mod>65</mod>
+        <serie>1</serie>
+        <nNF>11</nNF>
+        <dhEmi>2024-08-21T12:49:29-03:00</dhEmi>
+        <tpNF>1</tpNF>
+        <idDest>1</idDest>
+        <cMunFG>4315149</cMunFG>
+        <tpImp>4</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>4</cDV>
+        <tpAmb>2</tpAmb>
+        <finNFe>1</finNFe>
+        <indFinal>1</indFinal>
+        <indPres>1</indPres>
+        <indIntermed>0</indIntermed>
+        <procEmi>0</procEmi>
+        <verProc>1</verProc>
+      </ide>
+      <emit>
+        <CNPJ>37916119000119</CNPJ>
+        <xNome>VIZ INDUSTRIA DE EMBUTIDOS LTDA</xNome>
+        <enderEmit>
+          <xLgr>PRESIDENTE LUCENA</xLgr>
+          <nro>1319</nro>
+          <xBairro>NOVA VILA</xBairro>
+          <cMun>4315149</cMun>
+          <xMun>PRESIDENTE LUCENA</xMun>
+          <UF>RS</UF>
+          <CEP>93945000</CEP>
+          <cPais>1058</cPais>
+          <xPais>BRASIL</xPais>
+          <fone>51980225365</fone>
+        </enderEmit>
+        <IE>3950005490</IE>
+        <CRT>3</CRT>
+      </emit>
+      <det nItem="1">
+        <prod>
+          <cProd>46</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>NOTA FISCAL EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xProd>
+          <NCM>85044010</NCM>
+          <CFOP>5102</CFOP>
+          <uCom>PC</uCom>
+          <qCom>1.0000</qCom>
+          <vUnCom>149.9900000000</vUnCom>
+          <vProd>149.99</vProd>
+          <cEANTrib>SEM GTIN</cEANTrib>
+          <uTrib>PC</uTrib>
+          <qTrib>1.0000</qTrib>
+          <vUnTrib>149.9900000000</vUnTrib>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <vTotTrib>34.69</vTotTrib>
+          <ICMS>
+            <ICMS00>
+              <orig>0</orig>
+              <CST>00</CST>
+              <modBC>3</modBC>
+              <vBC>0.00</vBC>
+              <pICMS>13.0000</pICMS>
+              <vICMS>0.00</vICMS>
+            </ICMS00>
+          </ICMS>
+          <PIS>
+            <PISOutr>
+              <CST>49</CST>
+              <vBC>149.99</vBC>
+              <pPIS>0.0000</pPIS>
+              <vPIS>0.00</vPIS>
+            </PISOutr>
+          </PIS>
+          <COFINS>
+            <COFINSOutr>
+              <CST>49</CST>
+              <qBCProd>0.0000</qBCProd>
+              <vAliqProd>0.0000</vAliqProd>
+              <vCOFINS>0.00</vCOFINS>
+            </COFINSOutr>
+          </COFINS>
+        </imposto>
+      </det>
+      <total>
+        <ICMSTot>
+          <vBC>0.00</vBC>
+          <vICMS>0.00</vICMS>
+          <vICMSDeson>0.00</vICMSDeson>
+          <vFCP>0.00</vFCP>
+          <vBCST>0.00</vBCST>
+          <vST>0.00</vST>
+          <vFCPST>0.00</vFCPST>
+          <vFCPSTRet>0.00</vFCPSTRet>
+          <vProd>149.99</vProd>
+          <vFrete>0.00</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>0.00</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vIPIDevol>0.00</vIPIDevol>
+          <vPIS>0.00</vPIS>
+          <vCOFINS>0.00</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>149.99</vNF>
+          <vTotTrib>34.69</vTotTrib>
+        </ICMSTot>
+      </total>
+      <transp>
+        <modFrete>9</modFrete>
+      </transp>
+      <pag>
+        <detPag>
+          <indPag>0</indPag>
+          <tPag>01</tPag>
+          <vPag>149.99</vPag>
+        </detPag>
+        <detPag>
+          <indPag>0</indPag>
+          <tPag>10</tPag>
+          <vPag>30.00</vPag>
+        </detPag>
+        <detPag>
+          <indPag>0</indPag>
+          <tPag>05</tPag>
+          <vPag>70.00</vPag>
+        </detPag>
+        <vTroco>100.00</vTroco>
+      </pag>
+      <infAdic>
+        <infCpl>Pedido UUID: 66c609b34d141- Vendedor: deivisValor Aprox. Tributos R$ 34,19 - 21
+          Federal, 13.19 Estadual e 0.00 Municipal.Fonte: IBPT empresometro.com.br</infCpl>
+      </infAdic>
+    </infNFe>
+    <infNFeSupl>
+      <qrCode>
+        https://www.sefaz.rs.gov.br/NFCE/NFCE-COM.aspx?p=43240837916119000119650010000000111004500994|2|2|1|948F56B4F456E1E3FE80F47C3858F0023E69346B</qrCode>
+      <urlChave>www.sefaz.rs.gov.br/nfce/consulta</urlChave>
+    </infNFeSupl>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <Reference URI="#NFe43240837916119000119650010000000111004500994">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <DigestValue>8NfmqRlNB13aOH1NtCC+T7q8K74=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>
+        Jgx7N5lM50sMMtlTo5k+53G/pYwZ2AZL9U1GGzfs3ZhSLGSdep2KtJQ1QknnDPCX2hkNNyhFme3573olDD99KoLV0QhFCyg9ib88JGnUlEADLcR7Nrvh2CUO9qDE8eSwFPE7Sm84JQgEidB2wYvWlIL99nfbMhUTlFcl3Gu3aDO1V5DlJg8N4N2iGyS6SK3/QPNnEX4BztKPnMdo0fIOhzXLmwqM41tlqCeHtKVaSp7Hxyv0I8dLMK5uJjk7igYSLE/5pAGZTtFMnBu68az6ZJ+wggytP5+80sqwT7wGXCnpxBxGS0UBqQ28cujRiB9kGF3PktBSOhwoEVIkLJbIFA==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>
+            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</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </NFe>
+  <protNFe versao="4.00">
+    <infProt>
+      <tpAmb>2</tpAmb>
+      <verAplic>RSnfce2408131252</verAplic>
+      <chNFe>43240837916119000119650010000000111004500994</chNFe>
+      <dhRecbto>2024-08-21T12:49:30-03:00</dhRecbto>
+      <nProt>143240001299247</nProt>
+      <digVal>8NfmqRlNB13aOH1NtCC+T7q8K74=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso da NF-e</xMotivo>
+    </infProt>
+  </protNFe>
+</nfeProc>

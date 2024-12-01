@@ -1,0 +1,304 @@
+{
+  "_header": { "encoding": "UTF-8", "version": "1.0" },
+  "_root": {
+    "nfeProc": {
+      "NFe": {
+        "Signature": {
+          "KeyInfo": {
+            "X509Data": {
+              "X509Certificate": {
+                "_attrs": {},
+                "pcdata": "\n            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"
+              },
+              "_attrs": {}
+            },
+            "_attrs": {}
+          },
+          "SignatureValue": {
+            "_attrs": {},
+            "pcdata": " O6A0ErkrYiYcYNTUXLD1WzMcCucLC4WsDCudS+m17V2WiGYnMnlbirCUjm8j1Vsa4Yz1H+UahBwhMFT7fe2Q8mcdAmpbxplsTmKSAzaA4z+rN3kYjcIkj2hNe+7nyNH1DeGoxVRwb9pkPSsanIRse4i8upl627FGfg2+A4l6B2orOL3KrV9tpEHanSMfjDzsaq3xyqFn00z8qft+9TVTKqTCQxMR+MZCPIzRFsWEzFkzK3Rqf7pn4jVlIuuqBJXfXuOaSSLlgmeYSlBMdkluFnCXKbBe+cdr67YqnJcOlukhQaXXeoY16FgMnsX5W5hgPGiP3It1jQxpm1QCRFnnJw=="
+          },
+          "SignedInfo": {
+            "CanonicalizationMethod": {
+              "_attrs": {
+                "Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+              },
+              "pcdata": ""
+            },
+            "Reference": {
+              "DigestMethod": {
+                "_attrs": {
+                  "Algorithm": "http://www.w3.org/2000/09/xmldsig#sha1"
+                },
+                "pcdata": ""
+              },
+              "DigestValue": {
+                "_attrs": {},
+                "pcdata": "ElLAbSyKMfUeX0zntGNklBkRi9E="
+              },
+              "Transforms": {
+                "Transform": {
+                  "_attrs": {
+                    "Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+                  },
+                  "pcdata": ""
+                },
+                "_attrs": {}
+              },
+              "_attrs": {
+                "URI": "#NFe43240837916119000119550010000000061004500991"
+              }
+            },
+            "SignatureMethod": {
+              "_attrs": {
+                "Algorithm": "http://www.w3.org/2000/09/xmldsig#rsa-sha1"
+              },
+              "pcdata": ""
+            },
+            "_attrs": {}
+          },
+          "_attrs": { "xmlns": "http://www.w3.org/2000/09/xmldsig#" }
+        },
+        "_attrs": { "xmlns": "http://www.portalfiscal.inf.br/nfe" },
+        "infNFe": {
+          "_attrs": {
+            "Id": "NFe43240837916119000119550010000000061004500991",
+            "versao": "4.00"
+          },
+          "cobr": {
+            "_attrs": {},
+            "fat": {
+              "_attrs": {},
+              "nFat": { "_attrs": {}, "pcdata": "001" },
+              "vLiq": { "_attrs": {}, "pcdata": "100.00" },
+              "vOrig": { "_attrs": {}, "pcdata": "100.00" }
+            }
+          },
+          "dest": {
+            "CPF": { "_attrs": {}, "pcdata": "04787393030" },
+            "_attrs": {},
+            "enderDest": {
+              "CEP": { "_attrs": {}, "pcdata": "97105070" },
+              "UF": { "_attrs": {}, "pcdata": "RS" },
+              "_attrs": {},
+              "cMun": { "_attrs": {}, "pcdata": "4316907" },
+              "cPais": { "_attrs": {}, "pcdata": "1058" },
+              "nro": { "_attrs": {}, "pcdata": "684" },
+              "xBairro": { "_attrs": {}, "pcdata": "Camobi" },
+              "xLgr": { "_attrs": {}, "pcdata": "Rua Dezessete de Maio" },
+              "xMun": { "_attrs": {}, "pcdata": "Santa Maria" },
+              "xPais": { "_attrs": {}, "pcdata": "BRASIL" }
+            },
+            "indIEDest": { "_attrs": {}, "pcdata": "9" },
+            "xNome": {
+              "_attrs": {},
+              "pcdata": "NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL"
+            }
+          },
+          "det": {
+            "_attrs": { "nItem": "1" },
+            "imposto": {
+              "COFINS": {
+                "COFINSOutr": {
+                  "CST": { "_attrs": {}, "pcdata": "49" },
+                  "_attrs": {},
+                  "qBCProd": { "_attrs": {}, "pcdata": "0.0000" },
+                  "vAliqProd": { "_attrs": {}, "pcdata": "0.0000" },
+                  "vCOFINS": { "_attrs": {}, "pcdata": "0.00" }
+                },
+                "_attrs": {}
+              },
+              "ICMS": {
+                "ICMS00": {
+                  "CST": { "_attrs": {}, "pcdata": "00" },
+                  "_attrs": {},
+                  "modBC": { "_attrs": {}, "pcdata": "3" },
+                  "orig": { "_attrs": {}, "pcdata": "0" },
+                  "pICMS": { "_attrs": {}, "pcdata": "13.0000" },
+                  "vBC": { "_attrs": {}, "pcdata": "0.00" },
+                  "vICMS": { "_attrs": {}, "pcdata": "0.00" }
+                },
+                "_attrs": {}
+              },
+              "PIS": {
+                "PISOutr": {
+                  "CST": { "_attrs": {}, "pcdata": "49" },
+                  "_attrs": {},
+                  "pPIS": { "_attrs": {}, "pcdata": "0.0000" },
+                  "vBC": { "_attrs": {}, "pcdata": "100.00" },
+                  "vPIS": { "_attrs": {}, "pcdata": "0.00" }
+                },
+                "_attrs": {}
+              },
+              "_attrs": {},
+              "vTotTrib": { "_attrs": {}, "pcdata": "23.59" }
+            },
+            "prod": {
+              "CFOP": { "_attrs": {}, "pcdata": "5102" },
+              "NCM": { "_attrs": {}, "pcdata": "85044010" },
+              "_attrs": {},
+              "cEAN": { "_attrs": {}, "pcdata": "SEM GTIN" },
+              "cEANTrib": { "_attrs": {}, "pcdata": "SEM GTIN" },
+              "cProd": { "_attrs": {}, "pcdata": "46" },
+              "indTot": { "_attrs": {}, "pcdata": "1" },
+              "qCom": { "_attrs": {}, "pcdata": "1.0000" },
+              "qTrib": { "_attrs": {}, "pcdata": "1.0000" },
+              "uCom": { "_attrs": {}, "pcdata": "PC" },
+              "uTrib": { "_attrs": {}, "pcdata": "PC" },
+              "vProd": { "_attrs": {}, "pcdata": "100.00" },
+              "vUnCom": { "_attrs": {}, "pcdata": "100.0000000000" },
+              "vUnTrib": { "_attrs": {}, "pcdata": "100.0000000000" },
+              "xProd": {
+                "_attrs": {},
+                "pcdata": "CARREGADOR TIPO-C 65W XIAOMI"
+              }
+            }
+          },
+          "emit": {
+            "CNPJ": { "_attrs": {}, "pcdata": "37916119000119" },
+            "CRT": { "_attrs": {}, "pcdata": "3" },
+            "IE": { "_attrs": {}, "pcdata": "3950005490" },
+            "_attrs": {},
+            "enderEmit": {
+              "CEP": { "_attrs": {}, "pcdata": "93945000" },
+              "UF": { "_attrs": {}, "pcdata": "RS" },
+              "_attrs": {},
+              "cMun": { "_attrs": {}, "pcdata": "4315149" },
+              "cPais": { "_attrs": {}, "pcdata": "1058" },
+              "fone": { "_attrs": {}, "pcdata": "51980225365" },
+              "nro": { "_attrs": {}, "pcdata": "1319" },
+              "xBairro": { "_attrs": {}, "pcdata": "NOVA VILA" },
+              "xLgr": { "_attrs": {}, "pcdata": "PRESIDENTE LUCENA" },
+              "xMun": { "_attrs": {}, "pcdata": "PRESIDENTE LUCENA" },
+              "xPais": { "_attrs": {}, "pcdata": "BRASIL" }
+            },
+            "xNome": {
+              "_attrs": {},
+              "pcdata": "VIZ INDUSTRIA DE EMBUTIDOS LTDA"
+            }
+          },
+          "entrega": {
+            "CEP": { "_attrs": {}, "pcdata": "97105070" },
+            "CPF": { "_attrs": {}, "pcdata": "04787393030" },
+            "UF": { "_attrs": {}, "pcdata": "RS" },
+            "_attrs": {},
+            "cMun": { "_attrs": {}, "pcdata": "4316907" },
+            "cPais": { "_attrs": {}, "pcdata": "1058" },
+            "nro": { "_attrs": {}, "pcdata": "684" },
+            "xBairro": { "_attrs": {}, "pcdata": "Camobi" },
+            "xLgr": { "_attrs": {}, "pcdata": "Rua Dezessete de Maio" },
+            "xMun": { "_attrs": {}, "pcdata": "Santa Maria" },
+            "xNome": {
+              "_attrs": {},
+              "pcdata": "DEIVIS FELIPE GUERREIRO FAGUNDES"
+            },
+            "xPais": { "_attrs": {}, "pcdata": "BRASIL" }
+          },
+          "ide": {
+            "_attrs": {},
+            "cDV": { "_attrs": {}, "pcdata": "1" },
+            "cMunFG": { "_attrs": {}, "pcdata": "4315149" },
+            "cNF": { "_attrs": {}, "pcdata": "00450099" },
+            "cUF": { "_attrs": {}, "pcdata": "43" },
+            "dhEmi": { "_attrs": {}, "pcdata": "2024-08-26T18:31:24-03:00" },
+            "dhSaiEnt": { "_attrs": {}, "pcdata": "2024-08-26T18:31:24-03:00" },
+            "finNFe": { "_attrs": {}, "pcdata": "1" },
+            "idDest": { "_attrs": {}, "pcdata": "1" },
+            "indFinal": { "_attrs": {}, "pcdata": "1" },
+            "indIntermed": { "_attrs": {}, "pcdata": "0" },
+            "indPres": { "_attrs": {}, "pcdata": "1" },
+            "mod": { "_attrs": {}, "pcdata": "55" },
+            "nNF": { "_attrs": {}, "pcdata": "6" },
+            "natOp": { "_attrs": {}, "pcdata": "VENDA MERCADORIA PEDIDO" },
+            "procEmi": { "_attrs": {}, "pcdata": "0" },
+            "serie": { "_attrs": {}, "pcdata": "1" },
+            "tpAmb": { "_attrs": {}, "pcdata": "2" },
+            "tpEmis": { "_attrs": {}, "pcdata": "1" },
+            "tpImp": { "_attrs": {}, "pcdata": "1" },
+            "tpNF": { "_attrs": {}, "pcdata": "1" },
+            "verProc": { "_attrs": {}, "pcdata": "1" }
+          },
+          "infAdic": {
+            "_attrs": {},
+            "infCpl": {
+              "_attrs": {},
+              "pcdata": ", Valor Aprox. Tributos R$ 22.80 - R$ 14 Federal, R$ 8.80 Estadual e R$ 0.00\n          Municipal.Fonte: IBPT empresometro.com.br"
+            },
+            "obsCont": {
+              "_attrs": { "xCampo": "Pedido" },
+              "xTexto": { "_attrs": {}, "pcdata": "Pedido UUID: 66ccf39cd6ab6" }
+            }
+          },
+          "infRespTec": {
+            "CNPJ": { "_attrs": {}, "pcdata": "13411562000170" },
+            "_attrs": {},
+            "email": { "_attrs": {}, "pcdata": "vagner@pjfit.com.br" },
+            "fone": { "_attrs": {}, "pcdata": "5530257700" },
+            "xContato": { "_attrs": {}, "pcdata": "VAGNER SAVEGNAGO SCHAEFER" }
+          },
+          "pag": {
+            "_attrs": {},
+            "detPag": {
+              "_attrs": {},
+              "indPag": { "_attrs": {}, "pcdata": "0" },
+              "tPag": { "_attrs": {}, "pcdata": "01" },
+              "vPag": { "_attrs": {}, "pcdata": "100.00" }
+            },
+            "vTroco": { "_attrs": {}, "pcdata": "0.00" }
+          },
+          "total": {
+            "ICMSTot": {
+              "_attrs": {},
+              "vBC": { "_attrs": {}, "pcdata": "0.00" },
+              "vBCST": { "_attrs": {}, "pcdata": "0.00" },
+              "vCOFINS": { "_attrs": {}, "pcdata": "0.00" },
+              "vDesc": { "_attrs": {}, "pcdata": "0.00" },
+              "vFCP": { "_attrs": {}, "pcdata": "0.00" },
+              "vFCPST": { "_attrs": {}, "pcdata": "0.00" },
+              "vFCPSTRet": { "_attrs": {}, "pcdata": "0.00" },
+              "vFrete": { "_attrs": {}, "pcdata": "0.00" },
+              "vICMS": { "_attrs": {}, "pcdata": "0.00" },
+              "vICMSDeson": { "_attrs": {}, "pcdata": "0.00" },
+              "vII": { "_attrs": {}, "pcdata": "0.00" },
+              "vIPI": { "_attrs": {}, "pcdata": "0.00" },
+              "vIPIDevol": { "_attrs": {}, "pcdata": "0.00" },
+              "vNF": { "_attrs": {}, "pcdata": "100.00" },
+              "vOutro": { "_attrs": {}, "pcdata": "0.00" },
+              "vPIS": { "_attrs": {}, "pcdata": "0.00" },
+              "vProd": { "_attrs": {}, "pcdata": "100.00" },
+              "vST": { "_attrs": {}, "pcdata": "0.00" },
+              "vSeg": { "_attrs": {}, "pcdata": "0.00" },
+              "vTotTrib": { "_attrs": {}, "pcdata": "23.59" }
+            },
+            "_attrs": {}
+          },
+          "transp": {
+            "_attrs": {},
+            "modFrete": { "_attrs": {}, "pcdata": "9" }
+          }
+        }
+      },
+      "_attrs": {
+        "versao": "4.00",
+        "xmlns": "http://www.portalfiscal.inf.br/nfe"
+      },
+      "protNFe": {
+        "_attrs": { "versao": "4.00" },
+        "infProt": {
+          "_attrs": {},
+          "cStat": { "_attrs": {}, "pcdata": "100" },
+          "chNFe": {
+            "_attrs": {},
+            "pcdata": "43240837916119000119550010000000061004500991"
+          },
+          "dhRecbto": { "_attrs": {}, "pcdata": "2024-08-26T18:31:26-03:00" },
+          "digVal": { "_attrs": {}, "pcdata": "ElLAbSyKMfUeX0zntGNklBkRi9E=" },
+          "nProt": { "_attrs": {}, "pcdata": "143240003691887" },
+          "tpAmb": { "_attrs": {}, "pcdata": "2" },
+          "verAplic": { "_attrs": {}, "pcdata": "RS2407031144" },
+          "xMotivo": { "_attrs": {}, "pcdata": "Autorizado o uso da NF-e" }
+        }
+      }
+    }
+  }
+}

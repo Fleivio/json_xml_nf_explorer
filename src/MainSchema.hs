@@ -1,10 +1,11 @@
-module SchemaTest(main') where 
+module MainSchema(main') where 
 
 import Data.Aeson (Value, eitherDecode, encode, decode)
 import qualified Data.ByteString.Lazy as B
 import Data.Aeson.Schema
 import Data.Maybe (fromJust)
-import HeaderSchema
+import Schemas.RootSchema
+import Schemas.HeaderSchema
 
 main' :: IO ()
 main' = do
@@ -20,15 +21,6 @@ mkTest = fromJust . decode . encode
 type MySchema = [schema| 
     {
         _header: #HeaderSchema,
-        _root: {
-            _nfeProc: {
-                _attrs: {
-                    versao: Text
-                },
-                _content: {
-                    nFe: Text
-                }
-            }
-        }
+        _root: #RootSchema
     }
 |]

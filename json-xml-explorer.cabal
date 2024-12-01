@@ -29,9 +29,12 @@ executable json-xml-explorer
         QuasiQuotes, DataKinds, OverloadedStrings, TypeFamilies, DeriveGeneric
 
     other-modules: 
-        SchemaTest,
+        MainSchema,
         XmlToJson,
-        HeaderSchema
+        
+        Schemas.RootSchema,
+        Schemas.HeaderSchema,
+        Schemas.NfeProcSchema
 
     build-depends:    
         base ^>=4.19.1.0,
@@ -39,7 +42,8 @@ executable json-xml-explorer
         aeson-schemas,
         parsec,
         text,
-        bytestring
+        bytestring,
+        unordered-containers
 
     hs-source-dirs:   app, src
 

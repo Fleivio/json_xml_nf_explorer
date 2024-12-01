@@ -1,6 +1,6 @@
 module Main where
 
-import SchemaTest
+import MainSchema
 
 main :: IO ()
 main = main'
