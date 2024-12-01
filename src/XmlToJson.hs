@@ -1,4 +1,4 @@
-module XmlToJson(parseXML, transformFile) where
+module XmlToJson(fileToJSON) where
 
 import Text.Parsec.String
 import Text.Parsec
@@ -7,13 +7,26 @@ import Data.Aeson
 import Data.Aeson.Key
 import qualified Data.ByteString.Lazy as B
 
+fileToJSON :: FilePath -> FilePath -> IO ()
+fileToJSON input output = do
+  inputStr <- readFile input
+  let qTag = parseXML inputStr
+  
+  case qTag of 
+    Left err -> print err
+    Right tag -> let jsonBs = encode tag
+                 in B.writeFile output jsonBs
+
+-----AESON------------------------------------------------------------
+
 data Tag = Tag String [(String, String)] (Either [Tag] String) deriving(Show, Eq, Generic)
 data Xml = Xml [(String, String)] Tag deriving(Show, Eq, Generic)
 
 instance ToJSON Tag where
   toJSON (Tag name attrs inner) =
       object [fromString name .= body]
-    where body = object $ ["_attrs" .= object (attrsToVals attrs)] ++ innerToVals inner
+    where body = object $ atrs ++ innerToVals inner
+          atrs = if null attrs then [] else ["_attrs" .= object (attrsToVals attrs)]
 
 instance ToJSON Xml where
   toJSON (Xml header tag) = object ["_header" .= headerObj, "_root" .= tagObj]
@@ -27,28 +40,16 @@ innerToVals (Right str) = ["pcdata" .= str]
 tagsToVals :: [Tag] -> [(Key, Value)]
 tagsToVals [] = []
 tagsToVals (Tag name attrs inner :ts) 
-  = (fromString name) 
-      .= object (
-          ["_attrs" .= object (attrsToVals attrs)]
-          ++ innerToVals inner
-          )
-  
+  = (fromString name) .= object (atrs ++ innerToVals inner)
   : tagsToVals ts
+  where 
+    atrs = if null attrs then [] else ["_attrs" .= object (attrsToVals attrs)]
 
 attrsToVals :: [(String, String)] -> [(Key, Value)]
 attrsToVals [] = []
 attrsToVals ((k,v):as) = (fromString k .= v) : attrsToVals as
 
-
-transformFile :: FilePath -> FilePath -> IO ()
-transformFile input output = do
-  inputStr <- readFile input
-  let qTag = parseXML inputStr
-  
-  case qTag of 
-    Left err -> print err
-    Right tag -> let jsonBs = encode tag
-                 in B.writeFile output jsonBs
+---PARSER-------------------------------------------------------------
 
 parseXML :: String -> Either ParseError Xml
 parseXML = parse xmlParser ""
